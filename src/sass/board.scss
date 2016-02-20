@@ -1,0 +1,29 @@
+.board {
+  width: 390px;
+  height: 434px;
+  background: url('../img/masu_dot_xy.png'), url('../img/ban_kaya_a.png');
+  padding: 11px;
+}
+
+.cellRow {
+  width: 390px;
+  height: 48px;
+  margin: 0;
+}
+
+.cell {
+  width: 41px;
+  height: 46px;
+  margin: 1px;
+  padding: 0;
+  float: left;
+}
+
+.piece {
+  width: 41px;
+  height: 46px;
+}
+
+.fu {
+  background: url('../img/koma/Sfu.png')
+}
